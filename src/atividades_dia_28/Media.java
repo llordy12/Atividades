@@ -6,20 +6,19 @@ public class Media {
 	public static void main(String[] args) {
 		
 		Scanner ler = new Scanner(System.in);
-		//começo
-		float portugues;
-		float matematica;
-		float ingles;
-		float fisica;
-				
+		
+	
+		float portugues, matematica, ingles, fisica, media;
+
 		System.out.println("digite sua notas: ");
 		portugues = ler.nextFloat();
 		matematica = ler.nextFloat();
 		ingles = ler.nextFloat();
 		fisica = ler.nextFloat();
 		
+		media = (ingles + fisica + matematica + portugues) / 4;
 		
-		System.out.println("Sua media final é: " + ((ingles + fisica + matematica + portugues) / 4 ));
+		System.out.printf("Sua media final é: %.1f%n", media);
 		
 		
 		
