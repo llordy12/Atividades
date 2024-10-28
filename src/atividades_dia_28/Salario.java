@@ -6,7 +6,7 @@ public class Salario {
 	public static void main(String[] args) {
 		
 		Scanner ler = new Scanner(System.in);
-		
+		//começo
 			int salario = 10000;
 			int abono = 1000;
 			

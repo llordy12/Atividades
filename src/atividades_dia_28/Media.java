@@ -6,7 +6,7 @@ public class Media {
 	public static void main(String[] args) {
 		
 		Scanner ler = new Scanner(System.in);
-		
+		//começo
 		float portugues;
 		float matematica;
 		float ingles;
