@@ -1,4 +1,4 @@
-package atividades_dia_28;
+package lacosCondicionais;
 
 import java.util.Scanner;
 
