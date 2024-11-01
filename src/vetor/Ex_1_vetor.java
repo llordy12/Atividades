@@ -30,14 +30,13 @@ public class Ex_1_vetor {
             }
         }
 
-        // Exibe o resultado
+  
         if (posicao != -1) {
             System.out.println("O numero " + numProcurado + " esta na posição: " + posicao);
         } else {
-            System.out.println("O numero " + numProcurado + " não foi encontrado!");
+            System.out.println("O numero " + numProcurado + " não foi encontrado");
         }
 
-        scanner.close(); // Fecha o scanner
-    }
+        scanner.close(); 
 
 }
