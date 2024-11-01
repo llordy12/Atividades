@@ -32,9 +32,9 @@ public class Ex_1_vetor {
 
   
         if (posicao != -1) {
-            System.out.println("O numero " + numProcurado + " esta na posição: " + posicao);
+            System.out.println("O numero " + numProcurado + "  esta na posição: " + posicao);
         } else {
-            System.out.println("O numero " + numProcurado + " não foi encontrado");
+            System.out.println("O numero " + numProcurado + "  não foi encontrado");
         }
 
         scanner.close(); 
